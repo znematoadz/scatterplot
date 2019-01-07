@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #231f20; }
+
+#container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh; }
+  #container #title {
+    text-align: center; }
+  #container .chart {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100; }
+    #container .chart #chartSVG {
+      fill: #231f20;
+      padding: 20px;
+      overflow: visible; }
+
+.dot {
+  opacity: 0.7;
+  stroke: #191919; }
+
+.tooltip {
+  background-color: #f8f6ef;
+  position: absolute;
+  opacity: 0;
+  color: #191919;
+  font-size: 20px;
+  padding: 5px;
+  pointer-events: none;
+  border: 2px solid #8f8779;
+  border-radius: 3px; }
