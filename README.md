@@ -1,2 +1,2 @@
-# barchart
-D3 bar chart project 
+# D3 ScatterPlot Graph
+ 
